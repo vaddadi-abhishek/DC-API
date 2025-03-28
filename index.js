@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 app.use(express.json());
 
@@ -75,6 +75,6 @@ app.get('/', (req, res) => {
   res.json('Welcome to the DC API. Go to /dceu or /dcamu');
 });
 
-app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => { // Bind to 0.0.0.0
+  console.log(`Server listening at http://0.0.0.0:${port}`);
 });
