@@ -4,7 +4,7 @@ This API provides access to information about movies in the DC Extended Universe
 
 ## Base URL
 
-`http://localhost:3000/dceu`
+`https://dc-api-czde.onrender.com/dceu`
 
 ## Endpoints
 
