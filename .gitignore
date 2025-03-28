@@ -1,0 +1,36 @@
+# Node.js
+/node_modules
+package-lock.json
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Deployment
+/build/
+/dist/
+
+# Coverage reports
+/coverage/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Optional: if you have a large JSON file and don't want to track changes
+# DCEU.json
