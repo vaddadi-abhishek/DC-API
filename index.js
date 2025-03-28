@@ -72,7 +72,7 @@ app.get('/dceu', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json('Welcome to the DC API. Go to /dceu or /dcamu');
+  res.json('Welcome to the DC API. For Now, We only providing you DC Extended Universe movies but we are planning to add DC TV shows and animated series to the list soon. ENJOY!');
 });
 
 app.listen(port, '0.0.0.0', () => { // Bind to 0.0.0.0
